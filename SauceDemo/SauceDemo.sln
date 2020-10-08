@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SauceDemoTest", "SauceDemo\SauceDemoTest.csproj", "{98FD2DD8-FC37-4D1F-ADA9-471638C6A90A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SauceDemoTest", "SauceDemoTest\SauceDemoTest.csproj", "{98FD2DD8-FC37-4D1F-ADA9-471638C6A90A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SauceDemoFramework", "SauceDemoFramework\SauceDemoFramework.csproj", "{35C9A71F-DB16-4D13-928B-E021F50FAF43}"
 EndProject
