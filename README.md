@@ -22,7 +22,7 @@ The framework is to test all major features of the website including:
 
 The framework uses the concept of a page object model (POM) in order to encapsulate possible user actions on a given page (such as entering text into a field, clicking a button), and to abstract away the use of Selenium by encapsulating all calls to Selenium inside the POM. Public methods and properties of the POM are descriptive of the action or data they represent and require no knowledge of Selenium to use. Access to POM objects is provided by an instance of the `SauceDemoWebsite` class, which contains an instance of each POM class.
 
-![](class_diagram.png)
+![](/class_diagram.png)
 
 Individual test cases are specified in Gherkin syntax, and individual steps of a test case are translated into a method call using SpecFlow. The method calls representing steps are contained in classes whose name ends in "Steps", for example - the `LoginSteps` class contains methods for steps pertaining to logging in.
 
