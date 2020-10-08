@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SauceDemoFramework.SauceDemoWebsite">
+    <Position X="5.5" Y="1" Width="2" />
+    <AssociationLine Name="HomePage" Type="SauceDemoFramework.HomePage" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.812" Y="2.747" />
+        <Point X="5.812" Y="3.662" />
+        <Point X="1.75" Y="3.662" />
+        <Point X="1.75" Y="4.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="InventoryPage" Type="SauceDemoFramework.InventoryPage" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.062" Y="2.747" />
+        <Point X="6.062" Y="3.892" />
+        <Point X="4" Y="3.892" />
+        <Point X="4" Y="4.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="CheckoutStepOnePage" Type="SauceDemoFramework.CheckoutStepOnePage" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.938" Y="2.747" />
+        <Point X="6.938" Y="4.125" />
+        <Point X="8.531" Y="4.125" />
+        <Point X="8.531" Y="4.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="CheckoutStepTwoPage" Type="SauceDemoFramework.CheckoutStepTwoPage" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.312" Y="2.747" />
+        <Point X="7.312" Y="3.26" />
+        <Point X="10.75" Y="3.26" />
+        <Point X="10.75" Y="4.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Property Name="HomePage" />
+      <Property Name="InventoryPage" />
+      <Property Name="CartPage" />
+      <Property Name="CheckoutStepOnePage" />
+      <Property Name="CheckoutStepTwoPage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SauceDemoFramework.CartPage">
+    <Position X="5.25" Y="4.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SauceDemoFramework.HomePage">
+    <Position X="0.75" Y="4.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SauceDemoFramework.InventoryPage">
+    <Position X="3" Y="4.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SauceDemoFramework.CheckoutStepOnePage">
+    <Position X="7.5" Y="4.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SauceDemoFramework.CheckoutStepTwoPage">
+    <Position X="9.75" Y="4.5" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SauceDemoFramework.Config">
+    <Position X="3" Y="1" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="SauceDemoTest.CheckoutSteps">
+    <Position X="12.75" Y="4.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="_website" Type="SauceDemoFramework.SauceDemoWebsite" ManuallyRouted="true">
+      <Path>
+        <Point X="12.75" Y="5.528" />
+        <Point X="12.117" Y="5.528" />
+        <Point X="12.117" Y="2.436" />
+        <Point X="7.5" Y="2.436" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>QAIAAAAIgAIBAAAAAEIAAAAAAQBAAAACAAEUggEAAAA=</HashCode>
+      <FileName>CheckoutSteps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_website" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SauceDemoTest.InventorySteps">
+    <Position X="12.75" Y="2.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="_website" Type="SauceDemoFramework.SauceDemoWebsite" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="12.75" Y="3.005" />
+        <Point X="12.312" Y="3.005" />
+        <Point X="12.312" Y="2.062" />
+        <Point X="7.5" Y="2.062" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>MAIAAAAiggAAQIgAAAAAAABAAAAQAgAEAEAiBAEIQAQ=</HashCode>
+      <FileName>InventorySteps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_website" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SauceDemoTest.LoginSteps">
+    <Position X="12.75" Y="1" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAMEgAAAIAAAAAAAAAAAAAAAAAAAAEAAAAEAAAA=</HashCode>
+      <FileName>LoginSteps.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_website" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SauceDemoTest.WebsiteSupport">
+    <Position X="0.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>WebsiteSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
